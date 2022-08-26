@@ -1,0 +1,8 @@
+name: HotPotato
+version: '${project.version}'
+main: me.mrdev.hp.HotPotato
+api-version: 1.17
+description: HOT POTATO CHALLENGE
+commands:
+  hotpotato:
+    description: HOT POTATO CHALLENGE
