@@ -32,7 +32,6 @@ public class Game {
 
     public void setStarted(boolean started) {
         this.started = started;
-        plugin.getConfig();
         if(started) {
             prepareRandom();
             Bukkit.broadcastMessage(ChatColor.YELLOW + "HOT POTATO CHALLENGE HAS STARTED , " + ChatColor.RED + selected.getName() + ChatColor.YELLOW + " IS IT");
